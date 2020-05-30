@@ -1,0 +1,21 @@
+
+
+
+
+LANGUAGE 0, 4
+CIRCLE             REVERSI        "resource1.bin"
+
+
+LANGUAGE 0, 4
+CORNER             REVERSI        "resource2.bin"
+
+
+LANGUAGE 0, SUBLANG_NEUTRAL
+CROSS              REVERSI        "resource3.bin"
+
+
+LANGUAGE 0, SUBLANG_NEUTRAL
+SCREW              REVERSI        "resource4.bin"
+
+
+
