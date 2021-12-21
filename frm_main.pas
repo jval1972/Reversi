@@ -4,7 +4,7 @@ interface
 
 {$R ReversiWav.res}
 {$R ReversiGames.res}
-             
+
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   StdCtrls, ComCtrls, Buttons, ToolWin, ExtCtrls, Menus, AppEvnts, MMSystem,
@@ -272,7 +272,7 @@ begin
 
   Reversi1 := TReversiBoard.Create(nil);
   Reversi1.Parent := ReversiPanel1;
-  Reversi1.Align := alClient; 
+  Reversi1.Align := alClient;
   Reversi1.OnMove := Reversi1Move;
   Reversi1.OnUpdateInfo := Reversi1UpdateInfo;
   Reversi1.OnGameOver := Reversi1GameOver;
@@ -338,7 +338,7 @@ begin
   ToolButton3.Left := 105;
 
   StatusBar1.Panels[0].Text := 'Reversi 1.0';
-  
+
   lastInfoMsg := '';
   if ParamCount = 1 then
   begin
