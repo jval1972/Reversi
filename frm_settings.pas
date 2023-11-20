@@ -2,7 +2,8 @@ unit frm_settings;
 
 interface
 
-uses Windows, SysUtils, Classes, Graphics, Forms, Controls, StdCtrls,
+uses
+  Windows, SysUtils, Classes, Graphics, Forms, Controls, StdCtrls,
   Buttons, ComCtrls, ExtCtrls, Spin, rv_colorpickerbutton,
   rv_engine, Dialogs, ColorGrd, Menus;
 
